@@ -13,9 +13,6 @@ a {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(/safety7.jpg);
-    background-position: top;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
