@@ -1,0 +1,74 @@
+footer {
+    background-color: rgb(30, 72, 119);
+    color: whitesmoke;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+}
+
+footer .footrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .blocks {
+    width: 68vmin;
+    height: 32vmin;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.aboveinput {
+    width: inherit;
+}
+
+footer .footrow .blocks .aboveinput .footertext {
+    font-size: 13px;
+    font-weight: 600;
+    height: 26px;
+    letter-spacing: 0;
+    line-height: 1;
+    padding-left: 0px;
+    margin: 20px 0;
+    color: whitesmoke;
+}
+
+.inputmail input {
+    width: 100%;
+    height: 6vh;
+    margin-top: 0px;
+}
+
+hr {
+    margin-top: 5px;
+    width: 100%;
+}
+.blocks .adiv{
+    padding-bottom: 12px;
+}
+.blocks .pdiv{
+    padding-bottom: 11px;
+}
+.blocks .csdiv{
+    padding-bottom: 0px;
+margin-bottom: 14px;
+}
+.cs{
+    margin-bottom: 24px;
+}
+.flex-all-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 54px;
+    padding: 20px auto;
+    color: whitesmoke;
+}

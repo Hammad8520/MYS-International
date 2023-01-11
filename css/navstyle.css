@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.nav-links li a{
+        outline: none;
+        text-decoration: none;
+        padding: 2px 1px 0;
+      }
+      
+      a:link {
+        color: whitesmoke;
+      }
+      
+      a:visited {
+        color: whitesmoke;
+      }
+      
+      a:focus {
+        border-bottom: 1px solid;
+        background: whitesmoke;
+      }
+      
+      a:hover {
+        border-bottom: 1px solid;
+      }
+      
+      a:active {
+        color: rgb(30, 72, 119);
+      }
+

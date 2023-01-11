@@ -1,0 +1,33 @@
+
+.contentcol{
+    width: 40%;
+}
+.imagescol{
+    width: 44%;
+}
+.tour .images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.images img{
+    max-width: 300px;
+    margin: 10px;
+}
+.contentcol h1{
+    font-size: 7vmin;
+    color: black;
+}
+.contentcol .line{
+margin-left: -1px ;
+}
+.contentcol p{
+    padding: 0;
+    margin: 30px auto;
+}
+.contentcol .ctn{
+    margin-left: -100px;
+}
+

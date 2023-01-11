@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/safety7.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headercontent {
+    margin-bottom: 70px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.headercontent h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: rgb(30, 72, 119);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.headercontent h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgb(30, 72, 119);
+    border-radius: 30px;
+    color: whitesmoke
+}
+
+.menubutton {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    transition: transform .3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.ctn:hover {
+    background-color: whitesmoke;
+    color: rgb(30, 72, 119);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+.li:hover {
+    color: rgb(30, 72, 119);
+    cursor: pointer;
+}

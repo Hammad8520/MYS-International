@@ -1,0 +1,39 @@
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(26, 58, 128);
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col img{
+    width: 225px;
+    height: 225px;
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: black;
+    margin: 20px auto;
+}
+p{
+    color: rgb(118, 146, 179);
+    padding: 0px 40px;
+}
+.events .ctn{
+    margin-top: 30px;
+}
